@@ -52,7 +52,7 @@ Meanwhile, the ESP32 continuously uploads data such as **LDR sensor readings, li
 | **LDR Sensor**      | VCC         | ESP32 **Vin (5V)**           |
 |                     | GND         | ESP32 **GND**                |
 |                     | DO          | ESP32 **D34**                |
-| **Relay Module**    | VCC         | ESP32 **3.3V**               |
+| **Relay Module**    | VCC         | ESP32 **3.3V / 5V**          |
 |                     | GND         | ESP32 **GND**                |
 |                     | IN          | ESP32 **D23**                |
 |                     | COM         | ESP32 **3.3V**               |
@@ -196,6 +196,7 @@ It merges **hardware sensing**, **cloud connectivity**, and **real-time analytic
 **Aditya Raj**
 
 B.Tech in Information Technology
+
 IoT | Embedded Systems | AI | Cloud Integrations
 
 
