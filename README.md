@@ -86,10 +86,11 @@ Example Telemetry Payload:
 
 The following images illustrate the **two operating states** of the IoT-based Smart Lighting System — captured directly from the working prototype. These visuals help in understanding both **the circuit configuration** and the **expected output behavior** under varying light conditions.
 
-| Condition                  | Description                                                                                                                                                                                     | Image                                                      |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| 🌙 **Darkness Detected**   | When the ambient light intensity falls below the threshold, the **LDR detects darkness**. The **relay activates** (relay indicator LED ON), and the **LED bulb glows**, providing illumination. | ![Dark Condition](./dark_lightStatus0_relayState1.jpg)     |
-| ☀️ **Brightness Detected** | When sufficient light is present, the **LDR detects brightness**, causing the **relay to deactivate** (relay indicator LED OFF) and the **LED bulb to turn OFF** automatically.                 | ![Bright Condition](./bright_lightStatus1_relayState0.jpg) |
+| Condition                  | Description                                                                                                                                                                                     | Reference Image (in Repository Root)  |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| 🌙 **Darkness Detected**   | When the ambient light intensity falls below the threshold, the **LDR detects darkness**. The **relay activates** (relay indicator LED ON), and the **LED bulb glows**, providing illumination. | `dark_lightStatus0_relayState1.jpg`   |
+| ☀️ **Brightness Detected** | When sufficient light is present, the **LDR detects brightness**, causing the **relay to deactivate** (relay indicator LED OFF) and the **LED bulb to turn OFF** automatically.                 | `bright_lightStatus1_relayState0.jpg` |
+
 
 Both images align with the system’s **telemetry payload structure**:
 
