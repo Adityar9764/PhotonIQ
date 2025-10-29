@@ -102,7 +102,7 @@ Both images align with the system’s **telemetry payload structure**:
 }
 ```
 
-These states visually confirm the correct functioning of the hardware logic, relay response, and ThingsBoard telemetry updates thus ensuring that the circuit and cloud synchronization are operating flawlessly.
+These reference images validate the expected physical output and confirm that the sensor logic, relay switching, and ThingsBoard telemetry synchronization are functioning correctly.
 
 ---
 
