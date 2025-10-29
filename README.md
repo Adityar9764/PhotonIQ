@@ -169,7 +169,6 @@ This provides an interactive, real-time insight into environmental lighting and 
 ## 🧠 Future Enhancements
 
 * 🔋 Integration with **Solar Panels** or **Power Monitoring Sensors**
-* 📱 Mobile Dashboard for remote control and alerts
 * 🧠 Adaptive thresholding using **Machine Learning**
 * 🌍 Integration with **Google Home / Alexa** for voice-based control
 * 🕓 Scheduling and energy usage analytics
