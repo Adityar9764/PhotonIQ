@@ -182,14 +182,6 @@ It merges **hardware sensing**, **cloud connectivity**, and **real-time analytic
 
 ---
 
-## 📸 (Optional: Add These Sections Later)
-
-* 🔌 **Circuit Diagram** (upload schematic image)
-* 🧠 **ThingsBoard Dashboard Screenshot**
-* 🎥 **Demo Video / GIF of Live Working**
-
----
-
 ## 👨‍💻 Author
 
 **Aditya Raj**
