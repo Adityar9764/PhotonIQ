@@ -170,6 +170,7 @@ It merges **hardware sensing**, **cloud connectivity**, and **real-time analytic
 ## 👨‍💻 Author
 
 **Aditya Raj**
+
 B.Tech in Information Technology
 IoT | Embedded Systems | AI | Cloud Integrations
 
