@@ -79,6 +79,29 @@ Example Telemetry Payload:
   "relay_state": 1
 }
 ```
+---
+
+
+## 🖼️ System Behavior & Output Visualization
+
+The following images illustrate the **two operating states** of the IoT-based Smart Lighting System — captured directly from the working prototype. These visuals help in understanding both **the circuit configuration** and the **expected output behavior** under varying light conditions.
+
+| Condition                  | Description                                                                                                                                                                                     | Image                                                      |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 🌙 **Darkness Detected**   | When the ambient light intensity falls below the threshold, the **LDR detects darkness**. The **relay activates** (relay indicator LED ON), and the **LED bulb glows**, providing illumination. | ![Dark Condition](./dark_lightStatus0_relayState1.jpg)     |
+| ☀️ **Brightness Detected** | When sufficient light is present, the **LDR detects brightness**, causing the **relay to deactivate** (relay indicator LED OFF) and the **LED bulb to turn OFF** automatically.                 | ![Bright Condition](./bright_lightStatus1_relayState0.jpg) |
+
+Both images align with the system’s **telemetry payload structure**:
+
+```json
+{
+  "ldr_value": <analog sensor reading>,
+  "light_status": <1 = Bright, 0 = Dark>,
+  "relay_state": <1 = ON, 0 = OFF>
+}
+```
+
+These states visually confirm the correct functioning of the hardware logic, relay response, and ThingsBoard telemetry updates thus ensuring that the circuit and cloud synchronization are operating flawlessly.
 
 ---
 
