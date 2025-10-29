@@ -110,7 +110,7 @@ These reference images validate the expected physical output and confirm that th
 
 * Platform: **ThingsBoard Cloud** (MQTT-based IoT platform)
 * Protocol: **MQTT (Port 1883)**
-* Device Token: `L3aElpLH1oHyZQEKGvMa`
+* Device Token: `YOUR_ACCESS_TOKEN`
 * Data Stream: `v1/devices/me/telemetry`
 
 The ESP32 connects to Wi-Fi and authenticates with ThingsBoard using the **Access Token**.
